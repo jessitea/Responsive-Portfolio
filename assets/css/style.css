@@ -505,23 +505,23 @@ footer {
 
   .container {
 
-    width: 80%;
+    width: 90%;
     padding-top: 50px;
     margin-bottom: 50px;
   }
 
   #main-bio, #portfolio, #contact {
 
-    width: 100%;
-    margin-left: 45px;
+    width: 90%;
+    margin-left: 5px;
 
   }
 
   #contact-info {
 
-    width: 100%;
+    width: 90%;
     margin-top: 20px;
-    margin-left: 45px;
+    margin-left: 5px;
   }
 
   .menu-links {
@@ -552,6 +552,33 @@ footer {
     height: auto;
 
   }
+  /* Porfolio Media Query */
+
+  .image, .image2 {
+
+    width: 95%;
+    padding: 0px;
+    margin: 0;
+  }
+
+  .portimg {
+
+    width: 95%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .portext {
+
+    width: 89.1%;
+    left: 0px;
+  }
+
+  #portfolio {
+
+    padding-right: 0px;
+    margin-right: 0px;
+  }
 }
 
 /* Media Query 320px (I know this isn't part of the assignment but I wanted to see my page on my iPhone */
@@ -574,7 +601,7 @@ footer {
 
   .container {
 
-    width: 100%;
+    width: 90%;
     padding-top: 50px;
     margin-bottom: 50px;
   }
