@@ -239,21 +239,21 @@ footer {
 
   .container {
 
-    width: 100%;
+    width: 80%;
     padding-top: 50px;
     margin-bottom: 50px;
   }
 
   #main-bio, #portfolio, #contact {
 
-    width: 80%;
+    width: 100%;
     margin-left: 45px;
 
   }
 
   #contact-info {
 
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
     margin-left: 45px;
   }
@@ -308,7 +308,9 @@ footer {
     width: 96.2%;
     left: 0px;
   }
+}
 
+/* 768px media query */
 
 @media screen and (max-width: 768px) {
 
@@ -325,8 +327,8 @@ footer {
   .container {
 
     width: 100%;
-    padding-top: 50px;
-    margin-bottom: 50px;
+    padding-top: 100px;
+    margin-bottom: 100px;
   }
 
   #main-bio, #portfolio, #contact {
@@ -342,7 +344,94 @@ footer {
     margin-top: 20px;
     margin-left: 45px;
   }
+/*
+  .menu-links {
 
+    padding: 0;
+    width: 100%;
+    float: none;
+  }
+
+  .menu-links a {
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+    width: 27%;
+
+  }
+
+  .header a {
+
+    float: none;
+    text-align: center;*/
+  }
+/*
+  #bio-image {
+
+    width: 100%;
+    height: auto;*/
+
+  }
+
+  /* Porfolio Media Query */
+
+  /*.image, .image2 {
+
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .portimg {
+
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .portext {
+
+    width: 96.2%;
+    left: 0px;
+  }*/
+}
+
+/* Media Query 980px */
+
+@media screen and (max-width: 980px) {
+
+  .header {
+
+    width: 100%;
+  }
+
+  footer {
+
+    width: 100%;
+  }
+
+  .container {
+
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #main-bio, #portfolio, #contact {
+
+    width: 60%;
+    margin-left: 45px;
+
+  }
+
+  #contact-info {
+
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 45px;
+  }
+/*
   .menu-links {
 
     padding: 0;
@@ -374,7 +463,7 @@ footer {
 
   /* Porfolio Media Query */
 
-  .image, .image2 {
+  /*.image, .image2 {
 
     width: 100%;
     padding: 0px;
@@ -393,12 +482,8 @@ footer {
     width: 96.2%;
     left: 0px;
   }
-
-    
-
-
-
-
+  */
+}
 
     
 
