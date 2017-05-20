@@ -485,6 +485,107 @@ footer {
   */
 }
 
+/* Media Query 320px */
+
+@media screen and (max-width: 320px) {
+
+  .header {
+
+    position: static;
+    float: none;
+    width: 100%;
+  }
+
+  footer {
+
+    position: static;
+    float: none;
+    width: 100%;
+  }
+
+  .container {
+
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #main-bio, #portfolio, #contact {
+
+    width: 90%;
+    margin: 0px 5px 0px 5px;
+
+  }
+
+  #contact-info {
+
+    width: 85.5%;
+    margin-top: 20px;
+    margin-left: 5px;
+
+  }
+
+  .menu-links {
+
+    padding: 0;
+    width: 100%;
+    float: none;
+  }
+
+  .menu-links a {
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+    width: 20%;
+
+  }
+
+  .header a {
+
+    float: none;
+    text-align: center;
+  }
+
+  #bio-image {
+
+    width: 100%;
+    height: auto;
+
+  }
+
+  /* Porfolio Media Query */
+
+  .image, .image2 {
+
+    width: 95%;
+    padding: 0px;
+    margin: 0;
+  }
+
+  .portimg {
+
+    width: 95%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .portext {
+
+    width: 88%;
+    left: 0px;
+  }
+
+  #portfolio {
+
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+
+}
+
+
+
     
 
 
