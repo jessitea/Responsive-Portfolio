@@ -485,7 +485,76 @@ footer {
   */
 }
 
-/* Media Query 320px */
+/* Media Query 551px (Trying to get it to work on iPhone 6 Plus) */
+
+@media screen and (max-width: 551px) {
+
+  .header {
+
+    position: static;
+    float: none;
+    width: 100%;
+  }
+
+  footer {
+
+    position: static;
+    float: none;
+    width: 100%;
+  }
+
+  .container {
+
+    width: 80%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #main-bio, #portfolio, #contact {
+
+    width: 100%;
+    margin-left: 45px;
+
+  }
+
+  #contact-info {
+
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 45px;
+  }
+
+  .menu-links {
+
+    padding: 0;
+    width: 100%;
+    float: none;
+  }
+
+  .menu-links a {
+
+    display: inline-block;
+    text-align: center;
+    float: none;
+    width: 25%;
+
+  }
+
+  .header a {
+
+    float: none;
+    text-align: center;
+  }
+
+  #bio-image {
+
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+/* Media Query 320px (I know this isn't part of the assignment but I wanted to see my page on my iPhone */
 
 @media screen and (max-width: 320px) {
 
